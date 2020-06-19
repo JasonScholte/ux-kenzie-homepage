@@ -1,3 +1,5 @@
+/* base styles */
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -12,6 +14,10 @@ h2 {
   font-weight: 100;
   font-size: 110%;
 }
+
+
+
+ /* layout styles */
 
 nav {
   display: flex;
@@ -29,9 +35,22 @@ nav li {
   text-decoration: underline;
 }
 
-.blue-button {
+.hero {
+  
+}
+
+.hero h1 {
+ line-height: 0; color: black;
+}
+
+
+/* block styles */
+
+/* commenting this out and not deleting it just in case it did not work.
+
+.submit-button {
   background-color: blue;
-  text-decoration: none !important;
+  text-decoration: none;
   color: white;
   padding: 0.5em;
   border-radius: 6px;
@@ -40,14 +59,32 @@ nav li {
   display: inline-block;
 } 
 
-.signup-form form input[type=submit] {
+.contact-form form input[type=submit] {
   border: none;
   background-color: blue;
-  text-decoration: none !important;
+  text-decoration: none;
   color: white;
   padding: 0.5em;
   border-radius: 6px;
   width: 8em;
   text-align: center;
   display: inline-block;
+} */
+
+.submit-button, 
+.contact-form form input[type=submit] {
+  border: none;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 6px;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
+
+.contactus {
+
+
 }
