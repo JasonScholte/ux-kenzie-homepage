@@ -1,4 +1,5 @@
 /* base styles */
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -14,18 +15,15 @@ h2 {
   font-size: 110%;
 }
 
-/* layout styles */
+
+
+ /* layout styles */
+
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+
 }
 
 nav li {
@@ -37,12 +35,17 @@ nav li {
   text-decoration: underline;
 }
 
-.hero h1 {
-  line-height: 0;
-  color: black;
+.hero {
+  
 }
 
+.hero h1 {
+ line-height: 0; color: black;
+}
+
+
 /* block styles */
+
 /* commenting this out and not deleting it just in case it did not work.
 
 .submit-button {
@@ -67,7 +70,8 @@ nav li {
   text-align: center;
   display: inline-block;
 } */
-.submit-button,
+
+.submit-button, 
 .contact-form form input[type=submit] {
   border: none;
   background-color: blue;
@@ -79,4 +83,8 @@ nav li {
   text-align: center;
   display: inline-block;
 }
-/*# sourceMappingURL=style.css.map */
+
+.contactus {
+
+
+}
