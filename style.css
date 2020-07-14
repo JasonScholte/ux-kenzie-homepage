@@ -1,82 +1,160 @@
 /* base styles */
 body {
   font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
   font-size: 200%;
+  color: black;
 }
 
 h2 {
   text-align: center;
-  font-weight: 100;
-  font-size: 110%;
+  font-weight: ;
+  font-size: 115%;
+}
+
+h3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
 }
 
 /* layout styles */
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+.navbar {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
 }
 
-nav li {
-  display: inline-block;
-  margin-top: 0;
-  margin-right: 12px;
-  margin-left: 12px;
-  margin-bottom: 0;
-  text-decoration: underline;
+#hero {
+
 }
 
-.hero h1 {
-  line-height: 0;
-  color: black;
+/*.information {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+} */
+
+#meet {
+
 }
+
+.staff {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-evenly;;
+}
+
+#students {
+
+}
+
+#contact-form {
+
+}
+
+
 
 /* block styles */
-/* commenting this out and not deleting it just in case it did not work.
-
-.submit-button {
-  background-color: blue;
+   /*navbar */
+ .navbuttons {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content:normal;
   text-decoration: none;
-  color: white;
-  padding: 0.5em;
-  border-radius: 6px;
-  width: 8em;
-  text-align: center;
-  display: inline-block;
 } 
+.listbuttons {
+display: flex;
+justify-content: space-evenly;
+padding: 10px;
 
-.contact-form form input[type=submit] {
-  border: none;
-  background-color: blue;
-  text-decoration: none;
-  color: white;
-  padding: 0.5em;
-  border-radius: 6px;
-  width: 8em;
-  text-align: center;
-  display: inline-block;
-} */
-.submit-button,
-.contact-form form input[type=submit] {
-  border: none;
-  background-color: blue;
-  text-decoration: none;
-  color: white;
-  padding: 0.5em;
-  border-radius: 6px;
-  width: 8em;
-  text-align: center;
-  display: inline-block;
+
 }
-/*# sourceMappingURL=style.css.map */
+
+/* hero */
+
+.hero-container {
+
+
+}
+
+.hero-title {
+
+}
+
+.hero-description {
+
+}
+
+/* meet */
+
+.meet-title {
+
+}
+
+.meet-description {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+text-align: center;
+width: 50%;
+}
+
+.buttonstory {
+  color: blue;
+  text-align: center;
+}
+
+
+/* staff */
+
+#staff {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  
+  grid-gap: 5px;
+  background-color: white;
+}
+
+/*.boxone
+.boxtwo
+.boxthree
+.boxfour {
+display: flex;
+flex-wrap: nowrap;
+
+  } */
+
+
+/* students */
+
+#kenzie-students {
+
+}
+
+#student-description {
+
+}
+
+/* contact-form */
+
+
+/* mobile section */
+@media (min-width: 525px;) {
+  .staff {
+    dispaly: flex;
+  }
+}
+
+
+
+

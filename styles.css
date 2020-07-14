@@ -1,0 +1,120 @@
+/* main coding */
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Nunito, sans-serif";
+}
+p {
+  font-size: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    color: black;
+  } 
+/* sections */
+
+/* meet kenzie section */
+
+.meettitle {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+.meet-descript {
+  text-align: center;
+}
+.buttonstory {
+  background-color: lightblue;
+  margin: 6px;
+}
+
+/* staff section */
+.staff {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-evenly;;
+}
+
+.boxone,
+.boxtwo,
+.boxthree,
+.boxfour {
+  display: grid;
+}
+.row1,
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  text-align: justify;
+  font-weight: bold;
+}
+
+ /* students */
+
+ .students {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-template-row: 1fr; */
+ }
+.kenziestudents {
+  display: flex;
+  font-weight: bold;
+  font-style: normal;
+}
+.student-video {
+  display: flex;
+}
+.video-image {
+  width: 100%;
+}
+
+/* Mobile styles*/
+@media (min-width: 550px) {
+  .staff {
+    display: flex;
+  }
+  .student-video > img {
+    width: 550px;
+  }
+  .student-description > p {
+    width: auto;
+  }
+}
+/* Deskstop styles*/
+@media (max-width: 1000px) {
+  .meet-description {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 900px;
+    margin: 1em;
+    background-color: thistle;
+  }
+  .staff {
+    display: flex;
+    padding: 10px;
+  }
+  .student-video {
+    display: flex;
+  }
+  .student-video {
+    flex-direction: column;
+  }
+  .student-description > p {
+    width: auto;
+  }
+}
+
+
+
+
+
+
+
